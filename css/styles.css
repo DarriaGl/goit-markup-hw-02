@@ -15,6 +15,7 @@ button {
   font-family: inherit;
 }
 button.main-btn {
+  font-family: inherit;
   background: var(--blue-logo);
   border-radius: 4px;
   font-weight: 500;
