@@ -52,7 +52,7 @@ h3.head-of-service {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: color: var(--white-option);
+  color: var(--white-option);
 }
 .main-sectn {
   background: var(--common-color);
