@@ -30,6 +30,7 @@ button.main-btn:focus {
   background: var(--menu-or-address);
 }
 button.btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -38,6 +39,10 @@ button.btn {
   border-radius: 4px;
 }
 button.btn:hover {
+  background: var(--menu-or-address);
+  color: var(--white-option);
+}
+button.btn:focus {
   background: var(--menu-or-address);
   color: var(--white-option);
 }
