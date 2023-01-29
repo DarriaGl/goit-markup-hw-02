@@ -133,4 +133,5 @@ li {
 }
 .head-hide {
   display: none;
+  visability: hidden;
 }
