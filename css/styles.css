@@ -132,6 +132,5 @@ li {
   color: var(--common-color);
 }
 .head-hide {
-  display: none;
   visability: hidden;
 }
