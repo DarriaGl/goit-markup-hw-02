@@ -129,7 +129,7 @@ li {
   text-decoration: none;
 }
 .team {
-  color: var(--logo-logo);
+  color: var(--common-color);
 }
 .head-hide {
   display: none;
