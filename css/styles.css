@@ -1,20 +1,17 @@
 :root {
---common-color: #2e2f42;
---logo-logo: #f4f4fd;
---blue-logo: #4d5ae5;
---menu-or-address: #404bbf;
---white-option: #ffffff;
---foot-color: #e7e9fc;
---normal-color: #434455;
+  --common-color: #2e2f42;
+  --logo-logo: #f4f4fd;
+  --blue-logo: #4d5ae5;
+  --menu-or-address: #404bbf;
+  --white-option: #ffffff;
+  --foot-color: #e7e9fc;
+  --normal-color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
-button {
-  cursor: pointer;
-  font-family: inherit;
-}
 button.main-btn {
+  cursor: pointer;
   font-family: inherit;
   background: var(--blue-logo);
   border-radius: 4px;
@@ -31,6 +28,7 @@ button.main-btn:focus {
   background: var(--menu-or-address);
 }
 button.btn {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -43,14 +41,11 @@ button.btn:hover {
   background: var(--menu-or-address);
   color: var(--white-option);
 }
-button.btn:focus {
-  background: var(--menu-or-address);
-  color: var(--white-option);
-}
 h3.head-of-service {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: var(--common-color);
 }
 .main-head {
   font-weight: 700;
@@ -60,20 +55,31 @@ h3.head-of-service {
   letter-spacing: 0.02em;
   color: var(--white-option);
 }
+.second-head {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--common-color);
+}
 .main-sectn {
   background: var(--common-color);
 }
-p {
+.prh-main {
   font-size: 16px;
   line-height: 1.5;
   color: var(--normal-color);
+}
+.lnk-card {
+  text-decoration: none;
 }
 .prh-footer {
   font-size: 16px;
   line-height: 1.5;
   color: var(--foot-color);
 }
-footer {
+.foot-part {
   background: var(--common-color);
 }
 li {
@@ -115,12 +121,13 @@ li {
   letter-spacing: 0.03em;
   color: var(--common-color);
   text-decoration: none;
+  text-transform: uppercase;
 }
 .blue-part {
   color: var(--blue-logo);
 }
 .logo-foot {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -128,11 +135,11 @@ li {
   letter-spacing: 0.03em;
   color: var(--logo-logo);
   text-decoration: none;
+  text-transform: uppercase;
 }
 .team {
-  color: var(--common-color);
+  background: var(--logo-logo);
 }
 .head-hide {
   display: none;
-  visibility: hidden;
 }
